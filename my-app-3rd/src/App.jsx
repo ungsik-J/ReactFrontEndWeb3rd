@@ -1,5 +1,7 @@
 import './App.css';
 
+import Z_Table from './chapter_01/components/Z_Table'
+
 import ChangeColor from './chapter_02/ButtonChangeColor/ChangeColor';
 import Form from './chapter_02/FormTable/Form';
 import Table from './chapter_02/FormTable/Table';
@@ -17,7 +19,9 @@ const App = () => {
   return (
 
     <>
-
+      <h2>chapter_01</h2>
+      <Z_Table />
+      <h2>chapter_02</h2>
       <ChangeColor />
       <Form getData={getData} /><br /><br />
       <Table obj={obj} />
