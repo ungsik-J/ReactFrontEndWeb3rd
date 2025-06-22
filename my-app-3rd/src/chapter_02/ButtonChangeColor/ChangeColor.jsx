@@ -2,7 +2,7 @@ import React, { useState, useReducer } from 'react'
 
 
 const style ={
-    width: "100px",
+    width: "100%",
     height: "100px",
     backgroundColor: 'black',
     border: "1px solid black",
@@ -32,7 +32,7 @@ const ChangeColor = () => {
 
   return (
     <>
-        <div style={{...style, backgroundColor: state.color}}>안녕하세요!!!</div>
+        <div style={{...style, backgroundColor: state.color}}>버튼을 클릭 하면 색상 변경하기</div>
         <button onClick={()=>handleClick('red')}>red</button>
         <button onClick={()=>handleClick('blue')}>blue</button>
         

@@ -26,7 +26,7 @@ const Form = ({getData}) => {
             <input type="email" name="email" onChange={handleChange}/>
             <label htmlFor='city'>도시</label>
             <input type="text" name="city" onChange={handleChange}/>
-            <button>제출</button>
+            &nbsp;<button>제출</button>
         </form>
     </>
   )
