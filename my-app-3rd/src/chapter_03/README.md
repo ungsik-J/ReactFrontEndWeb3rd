@@ -6,3 +6,8 @@ npm create vite@latest
 3.javascript
 4.npm install
 ## ##############################
+npm install axios
+npm install redux-thunk
+npm install react-redux
+npm install @reduxjs/toolkit
+npm install - g json-server
