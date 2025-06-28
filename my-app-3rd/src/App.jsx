@@ -7,6 +7,8 @@ import Form from './chapter_02/FormTable/Form';
 import Table from './chapter_02/FormTable/Table';
 import { useState } from 'react'
 
+import Main from './chapter_99/Main';
+
 const App = () => {
 
   const [obj, setObj] = useState(null)
@@ -19,6 +21,8 @@ const App = () => {
   return (
 
     <>
+      <h2>Main</h2>
+      <Main />
       <h2>chapter_01</h2>
       <Z_Table />
       <h2>chapter_02</h2>
